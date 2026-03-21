@@ -79,7 +79,7 @@ Apply a preset from the GUI and everything configures itself.
 
 ## Works without PTH
 
-Exchanges that don't expose public trade history (e.g. Bybit) are fully supported. The order book imbalance is the core signal — PTH is an optional confirmation layer. You'll see `🔬 PTH trades 0 (n/a)` in the sidebar and everything else runs normally.
+Exchanges that don't expose public trade history (e.g. Hyperliquid) are fully supported. The order book imbalance is the core signal — PTH is an optional confirmation layer. You'll see `🔬 PTH trades 0 (n/a)` in the sidebar and everything else runs normally.
 
 ---
 ## 📖 Full Documentation
