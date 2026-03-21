@@ -82,19 +82,18 @@ Apply a preset from the GUI and everything configures itself.
 Exchanges that don't expose public trade history (e.g. Bybit) are fully supported. The order book imbalance is the core signal — PTH is an optional confirmation layer. You'll see `🔬 PTH trades 0 (n/a)` in the sidebar and everything else runs normally.
 
 ---
-
 ## 📖 Full Documentation
 
-Everything is in the [Wiki](../../wiki):
+Everything is in the [Wiki](https://github.com/truitaman/OrderFlow-Magic/wiki):
 
-- [What is OrderFlow Trading?](../../wiki/1.-What-is-OrderFlow-Trading)
-- [The Machine Learning Engine](../../wiki/2.-The-Machine-Learning-Engine)
-- [Support & Resistance Confluence](../../wiki/3.-Support-&-Resistance-Confluence)
-- [Trap Detection, Absorption, Institution Hours](../../wiki/4.-Bull-&-Bear-Trap-Detection)
-- [Compound Profits & Dump Protection](../../wiki/7.-Compound-Profits)
-- [All Settings Reference](../../wiki/11.-OrderFlow-Settings-Reference)
-- [OrderFlow vs Classic Branch](../../wiki/14.-OrderFlow-vs-Classic-Branch)
-- [Tips & Best Practices](../../wiki/15.-Tips-&-Best-Practices)
+- [What is OrderFlow Trading?](https://github.com/truitaman/OrderFlow-Magic/wiki#-1-what-is-orderflow-trading)
+- [The Machine Learning Engine](https://github.com/truitaman/OrderFlow-Magic/wiki#-2-the-machine-learning-engine)
+- [Support & Resistance Confluence](https://github.com/truitaman/OrderFlow-Magic/wiki#-3-support--resistance-confluence)
+- [Trap Detection, Absorption, Institution Hours](https://github.com/truitaman/OrderFlow-Magic/wiki#-4-bull--bear-trap-detection)
+- [Compound Profits & Dump Protection](https://github.com/truitaman/OrderFlow-Magic/wiki#-7-compound-profits)
+- [All Settings Reference](https://github.com/truitaman/OrderFlow-Magic/wiki#-11-orderflow-settings-reference)
+- [OrderFlow vs Classic Branch](https://github.com/truitaman/OrderFlow-Magic/wiki#-14-orderflow-vs-classic-branch)
+- [Tips & Best Practices](https://github.com/truitaman/OrderFlow-Magic/wiki#-15-tips--best-practices)
 
 ---
 
