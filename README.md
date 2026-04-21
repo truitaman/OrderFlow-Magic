@@ -36,7 +36,7 @@ Trade Size adjusts automatically based on cumulative realized PnL across complet
 During confirmed orderbook dumps, the profit floor for partial sells is temporarily lowered so consecutive chunks keep firing instead of getting stuck after the first one.
 
 **📡 Signal to Pair**  
-Trade on illiquid bases — like USDC-BTC where MiCA regulations route your capital — while pulling OrderFlow signals from the deep, liquid USDT-BTC book. Configure your trading pair and signal pair independently. The bot reads the order book and PTH tape from the liquid pair, runs the GA calibration against that data, and executes orders on your actual trading pair. Full depth where it matters, execution where you need it. The GA automatically flushes stale samples when you change the signal pair, so thresholds recalibrate cleanly against the new book.
+Trade on illiquid bases — like USDC-BTC where MiCA regulations route your capital — while pulling OrderFlow signals from the deep, liquid USDT-BTC book. Configure your trading pair and signal pair independently. The bot reads the order book and PTH tape from the liquid pair, runs the GA calibration against that data, and executes orders on your actual trading pair. Full depth where it matters, execution where you need it.
 
 **🏗️ S/R Zone Exhaustion**  
 Prevents the bot from stacking rebuys at the same support level. When price oscillates around a zone, OF signals can fire repeatedly at essentially the same price. Zone Exhaustion caps how many rebuys are allowed per S/R level — once exhausted, new rebuys are blocked until price reaches the next lower support. Partial sells reset the counter.
